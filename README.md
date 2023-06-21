@@ -37,3 +37,8 @@
     ```
     /lodash/-/lodash-4.17.21.tgz -> test
     ```
+
+Obsevations:
+* PNPM does not respect the `NPM_CONFIG_USER_AGENT` environment variable
+* PNPM does not respect a `user-agent` specified in Node's global `node/etc/npmrc` file
+* PNPM does respect the `user-agent` specified in the project's local `.npmrc` file
